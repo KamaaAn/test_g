@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>Test</title>
+     <!-- Bootstrap core CSS -->
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+
+     <!-- Custom styles -->
+     <link href="style.css" rel="stylesheet">
+   </head>
+ 
+   <body>
+ 
+     <div class="collapse bg-inverse" id="navbarHeader">
+       
+     </div>
+     <div class="navbar navbar-inverse">
+       <div class="container d-flex justify-content-between">
+         <a href="#" class="navbar-brand"><img src="logoclassic.png" alt=""></a>
+         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+           <img src="cart.png" alt=""><span></span>
+         </button>
+       </div>
+     </div>
+ 
+     <section class="jumbotron text-center">
+       <div class="container">
+          <p class="gameofweek">GAME OF THE WEEK</p>
+          <img src="images/bg.png" alt="">
+          <div class="row">
+              <div class="col-sm">
+                <div class="card">
+                  <div class="card-block">
+                    <img src="images/oddwolrd.png" alt="">
+                    <h3 class="card-title">oddworld: stranger’s wrath</h3>
+                    <div class="buttons"><span class="btn btn-success">-50%</span><button class="btn btn-primary" value="oddworld" >$9,99</button></div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm">
+                  <div class="card">
+                    <div class="card-block">
+                        <img src="images/chaos.png" alt="">
+                      <h3 class="card-title">chaos on deponia</h3>
+                      <div class="buttons"><a href="#" class="btn btn-info">owned</a></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm">
+                    <div class="card">
+                      <div class="card-block">
+                          <img src="images/settlers.png" alt="">
+                        <h3 class="card-title">The settlers 2: gold edition</h3>
+                        <div class="buttons"><button class="btn btn-primary" value="settlers" >$5,99</button></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm">
+                      <div class="card">
+                        <div class="card-block">
+                            <img src="images/neverwinter.png" alt="">
+                          <h3 class="card-title">neverwinter nights</h3>
+                          <div class="buttons"><span class="btn btn-success">-50%</span><button class="btn btn-primary" value="neverwinter" >$4,99</button></div>
+                        </div>
+                        </div>
+                  
+                    </div>
+                    <div class="col-sm">
+                        <div class="card">
+                          <div class="card-block">
+                              <img src="images/assassins.png" alt="">
+                            <h3 class="card-title">assassin’s creed: director’s cut</h3>
+                            <div class="buttons"><button class="btn btn-primary" value="assassin" >$19,99</button></div>
+                      </div>
+                          </div>
+                        </div>
+                      </div>
+            </div>
+      </div>
+     </section>
+
+     <!-- Shopping cart
+     ================================================== -->  
+
+     <form id="shopping-cart" method="post">
+        <table class="shopping-cart">
+            <tr id="sub-total">
+               <td><strong>Sub Total</strong>: <span id="stotal"></span></td>
+               <td><input type="submit" name="delete" id="empty-cart" class="btn" value="Empty Cart" /></td>
+            </tr>
+            
+          </table>
+    </form>
+  
+ 
+     <!-- Bootstrap core JavaScript
+     ================================================== -->
+     <!-- Placed at the end of the document so the pages load faster -->
+     <!-- jQuery first, then Tether, then Bootstrap JS. -->
+     
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+     <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+     <script src="script.js"></script>
+   </body>
+</html>
